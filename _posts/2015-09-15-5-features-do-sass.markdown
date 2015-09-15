@@ -50,6 +50,8 @@ Particionar o CSS é uma ótima maneira  de organizar e facilitar o código. O S
 
 Algumas coisas no CSS são muito repetitivas, e acabam se tornando tediosas. Com os Mixins, é possível fazer grupos que contenham declarações CSS que serão reutilizadas na aplicação. Ao declarar o Mixin, pode-se utilizar parâmentros.
 
+{% highlight ruby %}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -58,6 +60,8 @@ Algumas coisas no CSS são muito repetitivas, e acabam se tornando tediosas. Com
 }
 
 .box { @include border-radius(10px); }
+
+{% endhighlight %}
 
 ### Extend/Inheritance
 
