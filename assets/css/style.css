@@ -622,6 +622,33 @@ h2.month {
   margin-left: 2px;
 }
 
+/* main footer */
+
+#main-footer {
+	margin-top: 80px;
+	border-top: 1px solid #EEEEEE;
+}
+
+#main-footer p {
+	text-align: center;
+}
+
+#main-footer .social {
+	width: 100%;
+}
+
+.social ul {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#main-footer ul li {
+	width: 40px;
+	display: inline-block;
+	margin: 20px 10px 10px 35px;
+	text-align: center;
+}
+
 /* Media Queries */
 @media screen and (max-width: 540px) {
 	#wrapper { padding:20px 20px 20px 20px;}
