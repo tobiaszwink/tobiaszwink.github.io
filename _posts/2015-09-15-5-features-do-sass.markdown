@@ -1,6 +1,7 @@
 ---
-title:  "5 features do SASS"
+title:  5 features do SASS
 date:   2015-09-15 10:18:00
+description: Aprendendo um pouco do SASS
 ---
 
 ### Váriaveis

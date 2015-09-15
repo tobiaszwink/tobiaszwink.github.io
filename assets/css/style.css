@@ -375,7 +375,11 @@ img {
 /*=========================================
 Post List
 =========================================== */
-#post-list,#archive-list {
+#post-list {
+	margin-top: 50px;
+}
+
+#archive-list {
 	margin-top: 100px;
 }
 
@@ -630,7 +634,7 @@ h2.month {
 /* main footer */
 
 #main-footer {
-	margin-top: 80px;
+	margin-top: 50px;
 	border-top: 1px solid #EEEEEE;
 	font-family: 'Open Sans', sans-serif;
 }
